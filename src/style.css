@@ -5,33 +5,18 @@ a {
 
 .body {
   display: flex;
-  padding: 3rem 5rem;
+  padding: 3rem 10rem;
   gap: 2rem;
-}
-
-.body .learnmore {
-  padding: 0.8rem 2rem;
-  background-color: #BC6C25;
-  border: none;
-  border-radius: 5px;
-}
-
-.body .learnmore:hover {
-  background-color: #DDA15E;
+  text-align: justify;
 }
 
 .body a {
   color: white;
 }
 
-.body div {
-  width: 50%;
-}
-
-
 .body2, .body3 {
   display: flex;
-  padding: 0rem 5rem;
+  padding: 0rem 10rem;
   gap: 2rem;
 }
 
@@ -75,11 +60,6 @@ a {
 
   .body div, .body iframe {
     width: 100%;
-  }
-
-  .body .learnmore {
-    width: 100%;
-    text-align: center;
   }
 
   .body2, .body3 {
